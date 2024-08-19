@@ -1,0 +1,749 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Satoshi", sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+.image-background {
+  background: url("img/background\ img.png") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav ul li button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li button:hover {
+  background-color: #333;
+}
+
+.logo-container {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-126%);
+  margin-top: 179px;
+  z-index: 30;
+}
+
+.logo-container img {
+  width: 600px;
+  height: auto;
+}
+
+.grey-background {
+  background-color: rgb(167, 166, 166);
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.stat h2 {
+  margin: 0;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  color: white;
+  font-size: 1.5 em;
+}
+
+#about-us {
+  padding-top: 20px;
+  padding: 70px;
+  background-color: #f9f9f9;
+  font-family: "Satoshi", sans-serif;
+}
+
+#about-us h2 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+#about-us h3 {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+#about-us p {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#services {
+  padding: 50px;
+  background-color: #1c1d22;
+  font-family: "Satoshi", sans-serif;
+}
+
+#services h2 {
+  margin-top: -30px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+.service1 {
+  padding-left: 50px;
+  margin-bottom: 40px;
+  background-color: #0194fe;
+  border-radius: 30px;
+}
+.service2 {
+  padding-left: 50px;
+  margin-bottom: 40px;
+  background-color: #cccccc;
+  border-radius: 30px;
+}
+.service3 {
+  padding-left: 50px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  background-color: #2d3855;
+  border-radius: 30px;
+}
+
+.service h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #555;
+}
+.service1 h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+.service2 h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: black;
+}
+.service3 h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.service ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: -28px;
+}
+.service1 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: -28px;
+}
+.service2 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: -28px;
+}
+.service3 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: -28px;
+}
+
+.service ul li {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #666;
+  margin-bottom: 8px;
+}
+.service1 ul li {
+  font-size: 18px;
+  line-height: 1.3;
+  color: white;
+  margin-bottom: 8px;
+}
+.service2 ul li {
+  font-size: 18px;
+  line-height: 1.3;
+  color: black;
+  margin-bottom: 8px;
+}
+.service3 ul li {
+  font-size: 18px;
+  line-height: 1.3;
+  color: white;
+  margin-bottom: 8px;
+}
+.block img {
+  width: 30vw;
+  height: 400px;
+}
+
+.block {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.no-bullet {
+  list-style-type: none;
+}
+.reduce-space {
+  margin-bottom: -10px; /* Adjust the value as needed */
+}
+
+.process {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  background: url("img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 150vh;
+  width: 50vw;
+  flex-direction: column;
+  margin-left: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.process h2 {
+  margin-top: -20px;
+  font-size: 2.9em;
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+.step img {
+  width: auto;
+  height: 150px;
+}
+
+.step h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.slider-container {
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  padding: 20px;
+}
+.slider-container h1 {
+  margin-top: -10px;
+  margin-bottom: -20px;
+  font-size: 50px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  max-width: 700px; /* Adjust the width as needed */
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 24.99%; /* Adjust the width of the thumbnail columns */
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: start;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.contact-text h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-text h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+  font-size: 16px;
+  color: #555;
+  resize: none;
+}
+
+.contact-form textarea {
+  height: 120px;
+  border-radius: 25px;
+}
+
+.contact-form button {
+  padding: 15px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.footer-logo img {
+  height: 100px;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-social img {
+  height: 35px;
+}
+
+.footer-links {
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+#menu-toggle {
+    display: none;
+}
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Hidden by default, shown on smaller screens */
+}
+#menu-toggle:checked ~ #nav-links {
+    display: flex;
+}
+.close-button {
+    display: none; /* Hidden by default */
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Adjust based on your design */
+    right: 10px; /* Adjust based on your design */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .grey-background {
+        background-color: rgb(167, 166, 166);
+        padding: 30px;
+    }
+    .image-background {
+    background: url(img/background img.png);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+    .logo-container img{
+        width: 400px;
+    }
+    .logo-container {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-90%);
+        margin-top: 5px;
+        z-index: 80;
+
+    }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    border-top: solid black 10px;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 650px;
+    margin-top: -70px;
+  }
+  .close-button {
+    display: block;
+}
+
+  /* Show the nav when the hamburger menu is clicked */
+  nav ul.active {
+    display: flex;
+  }
+  .block img {
+    width: 40vw;
+    height: auto;
+}
+  #services .block {
+    flex-direction: column;
+  }
+
+  .process .step {
+    max-width: 90%;
+  }
+  .process {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background: url(img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 180vh;
+    width: 50vw;
+    flex-direction: column;
+    margin-left: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-text,
+  .contact-form {
+    max-width: 90%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form input, .contact-form textarea {
+        width: 400px;
+        padding: 15px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        background-color: #e0e0e0;
+        font-size: 16px;
+        color: #555;
+        resize: none;
+    }
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .contact-section {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: start;
+        padding: 30px;
+        background-color: #f9f9f9;
+    }
+    .contact-text h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0;
+    }
+    .contact-text h3 {
+        font-size: 50px;
+        margin-top: -30px;
+        margin-bottom: 0px;
+    }
+    .step img {
+        width: auto;
+        height: 100px;
+    }
+    .process {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        background: url(img/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+        height: 130vh;
+        width: 70vw;
+        flex-direction: column;
+        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service1 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        margin-bottom: 40px;
+        background-color: #0194fe;
+        border-radius: 30px;
+        width: 110%; /* Adjust this value to your desired width */
+        margin-left: -15px;
+        margin-right: auto;
+    }
+    .service2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        margin-bottom: 40px;
+        background-color: #cccccc;
+        border-radius: 30px;
+        width: 110%; /* Adjust this value to your desired width */
+        margin-left: -15px;
+        margin-right: auto;
+    }
+    .service3 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        background-color: #2d3855;
+        border-radius: 30px;
+        width: 110%; /* Adjust this value to your desired width */
+        margin-left: -15px;
+        margin-right: auto;
+    }
+    #about-us p {
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    #about-us h2 {
+        font-size: 40px;
+        margin-bottom: -20px;
+    }
+    #about-us {
+        margin-top: -30px;
+        padding: 30px;
+        background-color: #f9f9f9;
+        font-family: "Satoshi", sans-serif;
+    }
+    .logo-container img {
+        margin-top: 10px;
+        margin-right: -68px;
+        width: 300px;
+    }
+    .hamburger {
+        display: block;
+        margin-left: 380px;
+        margin-top: -65px;
+    }
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  nav ul li button {
+    font-size: 0.9rem;
+  }
+
+  .stats h2 {
+    font-size: 2.5rem;
+  }
+
+  .stat p {
+    font-size: 0.9rem;
+  }
+
+  
+}
